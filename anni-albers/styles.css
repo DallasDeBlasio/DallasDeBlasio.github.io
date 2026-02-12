@@ -2,26 +2,28 @@
 
 /*starting with index 1*/
 
-main{
+main {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
 }
 
-h1{
+h1 {
     font-size: 3rem;
 }
 
-h2{
+h2 {
     font-size: 0.75rem;
     font-style: italic;
 }
-p{
+
+p {
     font-size: 1.2rem;
     line-height: 2rem;
     width: 50%;
 }
-p.callout{
+
+p.callout {
     font-size: 2rem;
     line-height: auto;
     font-style: italic;
@@ -29,18 +31,19 @@ p.callout{
     text-align: right;
     padding-left: 2em;
 }
+
 #row2 p,
 #row4 p,
-#row11 p{
+#row11 p {
     margin-left: calc(100%/6);
 }
 
 #row5 p,
 #row9 p,
-#row12 p{
+#row12 p {
     margin-left: calc(100% * 2/6);
 }
 
-#row7 p{
+#row7 p {
     margin-left: calc(100% * 3/6);
 }
