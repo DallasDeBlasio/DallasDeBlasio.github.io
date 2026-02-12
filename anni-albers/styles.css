@@ -30,12 +30,14 @@ p.callout{
     padding-left: 2em;
 }
 #row2 p,
-#row4 p{
+#row4 p
+#row11 p{
     margin-left: calc(100%/6);
 }
 
 #row5 p,
-#row9 p{
+#row9 p
+#row12 p{
     margin-left: calc(100% * 2/6);
 }
 
