@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+        textarea{
+            padding: 5px;
+            background-color: lightgrey;
+        }
+
+        .example-box{
+            width: 300px;
+            height: 150px;
+            background-image: url("example.jpg");
+            background-size: cover;
+            background-position: center;
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h1>Code Log: Images</h1>
+
+<h2>Part 1</h2>
+<p>What are the differences between presenting an image using an HTML tag and presenting it as a CSS background image?</p>
+
+<textarea cols="80" rows="6">
+An image with an HTML <img> tag will display whatever image was chosen as its own element in the layout. This image can also have alternative text for the reader. A CSS background can't have the alternative text like the HTML image can, and is usually used for design instead of content. 
+</textarea>
+
+<h3>Example of an HTML Image</h3>
+
+<pre>
+&lt;img src="photo.jpg" alt="Example photo" width="300"&gt;
+</pre>
+
+<h3>Example of a CSS Background Image</h3>
+
+<pre>
+.example-box{
+    background-image: url("example.jpg");
+}
+</pre>
+
+<div class="example-box"></div>
+
+<h2>Part 2</h2>
+<p>Besides background-image, what other CSS properties affect the display of background images?</p>
+
+<textarea cols="80" rows="8">
+Two important CSS properties that affect background images are background-size and background-position. background-size controls how large the image appears inside the element. For example, using "cover" will scale the image so it fills the entire element, while "contain" ensures the whole image is visible even if empty space remains. background-position controls where the image appears inside the element. You can place the image in positions such as center, top, bottom, or use coordinates like 50% 50%.
+</textarea>
+
+<h2>Part 3</h2>
+<p>In one sentence, define the difference between dimensions and resolution in a bitmap image.</p>
+
+<textarea cols="80" rows="4">
+Dimensions describe the width and height of an image in pixels, while resolution describes how many pixels are packed into a physical area, typically measured in pixels per inch.
+</textarea>
+
+
+</body>
+</html>
