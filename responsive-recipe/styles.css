@@ -97,16 +97,26 @@ body{
     text-align: center;
 }
 
+#ingredients{
+    text-align: center;
+}
+
+#directions{
+    text-align: center;
+}
+
 #ingredients ul{
     text-align: center;
+    list-style-position: inside;
 }
 
 #directions ol{
     text-align: center;
+    list-style-position: inside;
 }
 
 #image img{
-    width: 75%;
+    width: 90%;
     height: auto;
 }
 
