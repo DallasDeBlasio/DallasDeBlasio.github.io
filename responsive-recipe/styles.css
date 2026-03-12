@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 2%;
 }
 
 #layout main{
@@ -30,6 +30,10 @@ body{
     text-align: center;
 }
 
+#image img{
+    width: 100%;
+    height: auto;
+}
 
 @media screen and (orientation: landscape){
 
@@ -61,5 +65,33 @@ body{
     text-align: center;
 }
 
+#preptime{
+    text-align: center;
+}
+
+#baketime{
+    text-align: center;
+}
+
+#serving{
+    text-align: center;
+}
+
+#reviews{
+    text-align: center;
+}
+
+#ingredients{
+    text-align: center;
+}
+
+#directions{
+    text-align: center;
+}
+
+#image img{
+    width: 50%;
+    height: auto;
+}
 
 }
