@@ -26,11 +26,6 @@
 #layout #directions {grid-area: directions;}
 
 
-#image{
-    
-    width: 100vw;
-    height: 40vh;
-}
 
 
 @media screen and (orientation: landscape){
