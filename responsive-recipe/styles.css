@@ -116,8 +116,10 @@ body{
 }
 
 #image img{
-    width: 90%;
+    width: 80%;      /* or whatever size you want */
     height: auto;
+    display: block;
+    margin: auto;
 }
 
 }
