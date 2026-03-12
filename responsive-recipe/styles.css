@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-#secondLayout main{
+#layout main{
     display: grid;
     grid-template-columns: repeat(2);
     grid-template-rows: repeat(6);
@@ -15,6 +15,17 @@
     'ingredients ingredients'
     'directions directions';
 }
+
+#layout #title {grid-area: title;}
+#layout #preptime {grid-area: preptime;}
+#layout #baketime {grid-area: baketime;}
+#layout #serving {grid-area: serving;}
+#layout #reviews {grid-area: reviews;}
+#layout #image {grid-area: image;}
+#layout #ingredients {grid-area: ingredients;}
+#layout #directions {grid-area: directions;}
+
+
 @media screen and (orientation: landscape){
 
 }
