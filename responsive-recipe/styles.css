@@ -3,7 +3,18 @@
     box-sizing: border-box;
 }
 
-
+#secondLayout main{
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-template-rows: repeat(6);
+    grid-template-areas: 
+    'title title'
+    'preptime baketime'
+    'serving reviews'
+    'image image'
+    'ingredients ingredients'
+    'directions directions';
+}
 @media screen and (orientation: landscape){
 
 }
