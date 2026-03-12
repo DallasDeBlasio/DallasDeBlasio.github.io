@@ -116,7 +116,7 @@ body{
 }
 
 #image img{
-    width: 80%;      /* or whatever size you want */
+    width: 70%;      /* or whatever size you want */
     height: auto;
     display: block;
     margin: auto;
