@@ -25,14 +25,41 @@ body{
 #layout #directions {grid-area: directions;}
 
 
-#image img{
-    width: 100%;
-    height: auto;
+
+#title{
+    text-align: center;
 }
 
 
 @media screen and (orientation: landscape){
 
+body{
+    margin: 0;
+}
+
+#layout main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4);
+    grid-template-areas: 
+    'title title title title'
+    'preptime baketime serving reviews'
+    'ingredients ingredients image image'
+    'directions directions directions directions';
+}
+
+#layout #title {grid-area: title;}
+#layout #preptime {grid-area: preptime;}
+#layout #baketime {grid-area: baketime;}
+#layout #serving {grid-area: serving;}
+#layout #reviews {grid-area: reviews;}
+#layout #image {grid-area: image;}
+#layout #ingredients {grid-area: ingredients;}
+#layout #directions {grid-area: directions;}
+
+#title{
+    text-align: center;
+}
 
 
 }
