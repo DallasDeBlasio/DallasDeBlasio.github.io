@@ -21,8 +21,9 @@ body {
 #layout main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, auto); /* fixed */
-    grid-template-areas: 
+    grid-template-rows: repeat(6, auto);
+    /* fixed */
+    grid-template-areas:
         'title title'
         'preptime baketime'
         'serving reviews'
@@ -31,14 +32,37 @@ body {
         'directions directions';
 }
 
-#layout #title { grid-area: title; }
-#layout #preptime { grid-area: preptime; }
-#layout #baketime { grid-area: baketime; }
-#layout #serving { grid-area: serving; }
-#layout #reviews { grid-area: reviews; }
-#layout #image { grid-area: image; }
-#layout #ingredients { grid-area: ingredients; }
-#layout #directions { grid-area: directions; }
+#layout #title {
+    grid-area: title;
+}
+
+#layout #preptime {
+    grid-area: preptime;
+}
+
+#layout #baketime {
+    grid-area: baketime;
+}
+
+#layout #serving {
+    grid-area: serving;
+}
+
+#layout #reviews {
+    grid-area: reviews;
+}
+
+#layout #image {
+    grid-area: image;
+}
+
+#layout #ingredients {
+    grid-area: ingredients;
+}
+
+#layout #directions {
+    grid-area: directions;
+}
 
 
 #ingredients ul,
@@ -56,8 +80,9 @@ body {
 
     #layout main {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, auto); /* fixed */
-        grid-template-areas: 
+        grid-template-rows: repeat(4, auto);
+        /* fixed */
+        grid-template-areas:
             'title title title title'
             'preptime baketime serving reviews'
             'ingredients ingredients image image'
