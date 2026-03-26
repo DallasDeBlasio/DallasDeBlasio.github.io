@@ -25,7 +25,6 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, auto);
-    /* fixed */
     grid-template-areas:
         'title title'
         'preptime baketime'
@@ -85,7 +84,6 @@ body {
     #layout main {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, auto);
-        /* fixed */
         grid-template-areas:
             'title title title title'
             'preptime baketime serving reviews'
