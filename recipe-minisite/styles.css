@@ -1,125 +1,82 @@
-body{
+/* ===== GLOBAL STYLES ===== */
+body {
     margin: 2%;
+    font-family: Arial, sans-serif;
 }
 
-#layout main{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6);
-    grid-template-areas: 
-    'title title'
-    'preptime baketime'
-    'serving reviews'
-    'image image'
-    'ingredients ingredients'
-    'directions directions';
-}
-
-#layout #title {grid-area: title;}
-#layout #preptime {grid-area: preptime;}
-#layout #baketime {grid-area: baketime;}
-#layout #serving {grid-area: serving;}
-#layout #reviews {grid-area: reviews;}
-#layout #image {grid-area: image;}
-#layout #ingredients {grid-area: ingredients;}
-#layout #directions {grid-area: directions;}
-
-
-
-#title{
+#title,
+#preptime,
+#baketime,
+#serving,
+#reviews {
     text-align: center;
 }
 
-#preptime{
-    text-align: center;
-}
-
-#baketime{
-    text-align: center;
-}
-
-#serving{
-    text-align: center;
-}
-
-#reviews{
-    text-align: center;
-}
-
-#image img{
+#image img {
     width: 100%;
     height: auto;
 }
 
-@media screen and (orientation: landscape){
 
-body{
-    margin: 0;
-}
-
-#layout main{
+#layout main {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto); /* fixed */
     grid-template-areas: 
-    'title title title title'
-    'preptime baketime serving reviews'
-    'ingredients ingredients image image'
-    'directions directions directions directions';
+        'title title'
+        'preptime baketime'
+        'serving reviews'
+        'image image'
+        'ingredients ingredients'
+        'directions directions';
 }
 
-#layout #title {grid-area: title;}
-#layout #preptime {grid-area: preptime;}
-#layout #baketime {grid-area: baketime;}
-#layout #serving {grid-area: serving;}
-#layout #reviews {grid-area: reviews;}
-#layout #image {grid-area: image;}
-#layout #ingredients {grid-area: ingredients;}
-#layout #directions {grid-area: directions;}
+#layout #title { grid-area: title; }
+#layout #preptime { grid-area: preptime; }
+#layout #baketime { grid-area: baketime; }
+#layout #serving { grid-area: serving; }
+#layout #reviews { grid-area: reviews; }
+#layout #image { grid-area: image; }
+#layout #ingredients { grid-area: ingredients; }
+#layout #directions { grid-area: directions; }
 
-#title{
-    text-align: center;
+
+#ingredients ul,
+#directions ol {
+    padding-left: 20px;
+    line-height: 1.6;
 }
 
-#preptime{
-    text-align: center;
-}
 
-#baketime{
-    text-align: center;
-}
+@media screen and (orientation: landscape) {
 
-#serving{
-    text-align: center;
-}
+    body {
+        margin: 0;
+    }
 
-#reviews{
-    text-align: center;
-}
+    #layout main {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, auto); /* fixed */
+        grid-template-areas: 
+            'title title title title'
+            'preptime baketime serving reviews'
+            'ingredients ingredients image image'
+            'directions directions directions directions';
+    }
 
-#ingredients{
-    text-align: left;
-}
+    #ingredients,
+    #directions {
+        text-align: left;
+    }
 
-#directions{
-    text-align: left;
-}
+    #ingredients ul,
+    #directions ol {
+        list-style-position: inside;
+    }
 
-#ingredients ul{
-    text-align: left;
-    list-style-position: inside;
-}
-
-#directions ol{
-    text-align: left;
-    list-style-position: inside;
-}
-
-#image img{
-    width: 70%;      /* or whatever size you want */
-    height: auto;
-    display: block;
-    margin: auto;
-}
-
+    #image img {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
 }
