@@ -98,20 +98,20 @@ body{
 }
 
 #ingredients{
-    text-align: center;
+    text-align: left;
 }
 
 #directions{
-    text-align: center;
+    text-align: left;
 }
 
 #ingredients ul{
-    text-align: center;
+    text-align: left;
     list-style-position: inside;
 }
 
 #directions ol{
-    text-align: center;
+    text-align: left;
     list-style-position: inside;
 }
 
