@@ -103,7 +103,10 @@ body {
         list-style-position: inside;
     }
 
-    #image img {
+    #image img,
+    #img1,
+    #img2,
+    #img3 {
         width: 70%;
         display: block;
         margin: auto;
