@@ -36,6 +36,19 @@ header {
     width: calc(100vw - 2em);
 }
 
+#toggleDarkMode {
+    margin-top: 2em;
+}
+
+body.darkMode {
+    background-color: darkgrey;
+    color: white;
+}
+
+body.darkMode h1 {
+    color: red;
+}
+
 @media screen and (orientation: landscape) {
     #flowerPic {
         width: 50vw;
@@ -50,6 +63,7 @@ header {
     #flowerTitle h1 {
         width: 45vw;
     }
+
 
     #toggleDarkMode {
         margin-top: 2em;
