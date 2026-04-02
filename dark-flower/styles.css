@@ -41,13 +41,10 @@ header {
 }
 
 body.darkMode {
-    background-color: darkgrey;
+    background-color: black;
     color: white;
 }
 
-body.darkMode h1 {
-    color: red;
-}
 
 @media screen and (orientation: landscape) {
     #flowerPic {
