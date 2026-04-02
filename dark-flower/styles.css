@@ -42,7 +42,7 @@ header {
 
 body.darkMode {
     background-color: black;
-    color: white;
+    color: lightslategrey;
 }
 
 
@@ -67,11 +67,8 @@ body.darkMode {
     }
 
     body.darkMode {
-        background-color: darkgrey;
-        color: white;
+        background-color: black;
+        color: lightslategrey;
     }
 
-    body.darkMode h1 {
-        color: red;
-    }
 }
