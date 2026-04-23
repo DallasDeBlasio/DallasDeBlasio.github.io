@@ -1,7 +1,12 @@
 
+body {
+    margin: 3%;
+    font-family: Arial, sans-serif;
+}
+
 :root {
     --nav-height: 3rem;
-    --nav-bkgd-color: gray;
+    --nav-bkgd-color: darkgreen;
     --nav-text-color: white;
     --nav-hover-bkgd-color: lightgray;
     --nav-hover-text-color: black;
