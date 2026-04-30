@@ -29,6 +29,12 @@ nav {
     width: 100%;
     height: auto;
 }
+#caption {
+    width: 100%;
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+}
 
 #navBurger {
     position: relative;
