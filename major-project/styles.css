@@ -190,6 +190,7 @@ nav>ul>li>ul>li:hover a {
 
     #img2{
         width: 50%;
+        height: auto;
         left: 0%;
     }
 }
