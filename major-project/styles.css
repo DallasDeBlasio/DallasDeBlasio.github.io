@@ -187,4 +187,9 @@ nav>ul>li>ul>li:hover a {
         width: 50%;
         left: 50%;
     }
+
+    #img2{
+        width: 50%;
+        left: 0%;
+    }
 }
