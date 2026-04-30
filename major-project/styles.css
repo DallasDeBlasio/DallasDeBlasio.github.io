@@ -122,11 +122,11 @@ nav>ul>li>ul>li:hover a {
 
     #navBurger {
         display: none;
-        padding: 0.1em 3% 0 0.3em;
     }
 
     nav>ul {
         overflow: visible;
+        left: 3%;
     }
 
     nav>ul>li {
