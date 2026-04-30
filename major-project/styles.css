@@ -193,4 +193,14 @@ nav>ul>li>ul>li:hover a {
         height: auto;
         left: 0%;
     }
+    
+.text-columns {
+    display: flex;
+    gap: 2rem;
+}
+
+.text-columns > div {
+    width: 50%;
+}
+
 }
