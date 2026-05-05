@@ -180,6 +180,12 @@ nav>ul>li>ul>li:hover a {
 
     /*page 1, grip*/
 
+    #img2 {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
     .img-columns {
     display: flex;
     gap: 2rem;
