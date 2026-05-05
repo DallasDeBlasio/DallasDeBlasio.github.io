@@ -193,8 +193,17 @@ nav>ul>li>ul>li:hover a {
 }
 
 .img-columns img {
-    height: 200px;
+    height: 250px;
     object-fit: cover;
+}
+
+.img-columns p {
+    width: 70%;
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
 }
     
 .text-columns {
