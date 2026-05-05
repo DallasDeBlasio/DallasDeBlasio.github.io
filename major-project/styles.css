@@ -197,9 +197,8 @@ nav>ul>li>ul>li:hover a {
     }
 
     .button-container {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
+        text-align: right;
+        margin-top: 2rem;
     }
 
     /*page 1, grip*/
