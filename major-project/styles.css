@@ -180,13 +180,21 @@ nav>ul>li>ul>li:hover a {
 
     /*page 1, grip*/
 
-    .img-columns {
+.img-columns {
     display: flex;
     gap: 2rem;
 }
 
 .img-columns > div {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-columns img {
+    height: 200px;
+    object-fit: cover;
 }
     
 .text-columns {
