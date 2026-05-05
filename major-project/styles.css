@@ -306,6 +306,7 @@ nav>ul>li>ul>li:hover a {
     .img-column img {
         width: 70%;
         height: auto;
+        margin: auto;
         object-fit: cover;
     }
 
