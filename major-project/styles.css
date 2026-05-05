@@ -118,7 +118,18 @@ nav>ul>li>ul>li:hover a {
 
 /*buttons for moving to the next page / previous page*/
 
-.button-link {
+.button-bar {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
     display: inline-block;
     padding: 0.75rem 1.5rem;
     background-color: darkgreen;
@@ -128,36 +139,9 @@ nav>ul>li>ul>li:hover a {
     font-weight: bold;
 }
 
-
-.button-link:hover {
+.button:hover {
     background-color: lightgray;
     color: black;
-}
-
-.button-container {
-    text-align: right;
-    margin-top: 2rem;
-}
-
-.button-link2 {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    background-color: darkgreen;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-}
-
-
-.button-link2:hover {
-    background-color: lightgray;
-    color: black;
-}
-
-.button-container2 {
-    text-align: left;
-    margin-top: 2rem;
 }
 
 
@@ -223,48 +207,31 @@ nav>ul>li>ul>li:hover a {
     }
 
     /*buttons used for all pages*/
+.button-bar {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
 
-    .button-link {
-        display: inline-block;
-        padding: 0.75rem 1.5rem;
-        background-color: darkgreen;
-        color: white;
-        text-decoration: none;
-        border-radius: 6px;
-        font-weight: bold;
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
 
-    .button-link:hover {
-        background-color: lightgray;
-        color: black;
-    }
-
-    .button-container {
-        text-align: right;
-        margin-top: 2rem;
-    }
-
-    .button-link2 {
-        display: inline-block;
-        padding: 0.75rem 1.5rem;
-        background-color: darkgreen;
-        color: white;
-        text-decoration: none;
-        border-radius: 6px;
-        font-weight: bold;
-    }
-
-
-    .button-link2:hover {
-        background-color: lightgray;
-        color: black;
-    }
-
-    .button-container2 {
-        text-align: left;
-        margin-top: 2rem;
-    }
+.button:hover {
+    background-color: lightgray;
+    color: black;
+}
 
     /*page 1, grip*/
 
