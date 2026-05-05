@@ -160,6 +160,23 @@ nav>ul>li>ul>li:hover a {
     }
 
 
+       /*If there is only one image we change it to this*/
+    .img-column img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .img-column p {
+        width: 70%;
+        font-size: 0.9rem;
+        color: #666;
+        text-align: center;
+        margin: 0.5rem auto;
+        padding: 0.5rem;
+    }
+
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
@@ -246,7 +263,7 @@ nav>ul>li>ul>li:hover a {
     color: black;
 }
 
-    /*page 1, grip*/
+    /*layout for pages that have two images with tips and common mistakes*/
 
     .img-columns {
         display: flex;
@@ -283,6 +300,22 @@ nav>ul>li>ul>li:hover a {
 
     .text-columns>div {
         width: 50%;
+    }
+
+    /*layout for if the page will only have one image.*/
+    .img-column img {
+        width: 70%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .img-column p {
+        width: 70%;
+        font-size: 0.9rem;
+        color: #666;
+        text-align: center;
+        margin: 0.5rem auto;
+        padding: 0.5rem;
     }
 
 }
