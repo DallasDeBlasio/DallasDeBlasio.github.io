@@ -179,20 +179,15 @@ nav>ul>li>ul>li:hover a {
 
 
     /*page 1, grip*/
-    #tips {
-        width: 50%;
-    }
 
-    #mistake {
-        width: 50%;
-        left: 50%;
-    }
+    .img-columns {
+    display: flex;
+    gap: 2rem;
+}
 
-    #img2{
-        width: 50%;
-        height: auto;
-        left: 0%;
-    }
+.img-columns > div {
+    width: 50%;
+}
     
 .text-columns {
     display: flex;
