@@ -116,28 +116,49 @@ nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
 
-/*button for moving to the next page*/
+/*buttons for moving to the next page / previous page*/
 
-    .button-link {
-        display: inline-block;
-        padding: 0.75rem 1.5rem;
-        background-color: darkgreen;
-        color: white;
-        text-decoration: none;
-        border-radius: 6px;
-        font-weight: bold;
-    }
+.button-link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
 
 
-    .button-link:hover {
-        background-color: lightgray;
-        color: black;
-    }
+.button-link:hover {
+    background-color: lightgray;
+    color: black;
+}
 
-    .button-container {
-        text-align: right;
-        margin-top: 2rem;
-    }
+.button-container {
+    text-align: right;
+    margin-top: 2rem;
+}
+
+.button-link2 {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+
+.button-link2:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.button-container2 {
+    text-align: left;
+    margin-top: 2rem;
+}
 
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
@@ -201,7 +222,7 @@ nav>ul>li>ul>li:hover a {
         content: "";
     }
 
-    /*button used for all pages*/
+    /*buttons used for all pages*/
 
     .button-link {
         display: inline-block;
@@ -221,6 +242,27 @@ nav>ul>li>ul>li:hover a {
 
     .button-container {
         text-align: right;
+        margin-top: 2rem;
+    }
+
+    .button-link2 {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background-color: darkgreen;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+    }
+
+
+    .button-link2:hover {
+        background-color: lightgray;
+        color: black;
+    }
+
+    .button-container2 {
+        text-align: left;
         margin-top: 2rem;
     }
 
