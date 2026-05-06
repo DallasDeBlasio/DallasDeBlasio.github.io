@@ -1,0 +1,55 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Smooth scrolling feel */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Each panel = full screen */
+.panel {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Text box for readability */
+.content {
+    background: rgba(0,0,0,0.5);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+/* Intro styling */
+.intro {
+    background: black;
+}
+
+/* Background images */
+.step1 {
+    background: url("sleep.jpg") center/cover no-repeat;
+}
+
+.step2 {
+    background: url("kitchen.jpg") center/cover no-repeat;
+}
+
+.step3 {
+    background: url("fridge.jpg") center/cover no-repeat;
+}
+
+.step4 {
+    background: url("leftovers.jpg") center/cover no-repeat;
+}
+
+.step5 {
+    background: url("cheese.jpg") center/cover no-repeat;
+}
