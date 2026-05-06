@@ -1,0 +1,112 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+/* Center content */
+main, header {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.tagline {
+    font-style: italic;
+    color: #666;
+    margin: 0.5rem 0 1rem;
+}
+
+/* Section cards */
+section {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Section titles */
+section h2 {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid darkgreen;
+    padding-bottom: 0.3rem;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Card-style links */
+li a {
+    display: block;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #fafafa;
+    transition: 0.2s;
+}
+
+li a:hover {
+    background-color: #eaeaea;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.4rem;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
