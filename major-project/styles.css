@@ -25,18 +25,6 @@ nav {
     background-color: var(--nav-bkgd-color);
 }
 
-#img1 {
-    width: 100%;
-    height: auto;
-}
-
-#caption {
-    width: 100%;
-    font-size: 0.9rem;
-    color: #666;
-    text-align: center;
-}
-
 #navBurger {
     position: relative;
     display: block;
@@ -116,6 +104,20 @@ nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
 
+/*css for home page*/
+#img1 {
+    width: 100%;
+    height: auto;
+}
+
+#caption {
+    width: 100%;
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+}
+
+
 /*buttons for moving to the next page / previous page*/
 
 .button-bar {
@@ -142,62 +144,43 @@ nav>ul>li>ul>li:hover a {
     color: black;
 }
 
-/*grip page*/
+/*mobile layout for pages with 2 images*/
 
-    .img-columns img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
+.img-columns img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
-    .img-columns p {
-        width: 70%;
-        font-size: 0.9rem;
-        color: #666;
-        text-align: center;
-        margin: 0.5rem auto;
-        padding: 0.5rem;
-    }
+.img-columns p {
+    width: 70%;
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+}
 
 
-       /*If there is only one image we change it to this*/
-    .img-column img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
+/*If there is only one image we change it to this*/
+.img-column img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
-    .img-column p {
-        width: 70%;
-        font-size: 0.9rem;
-        color: #666;
-        text-align: center;
-        margin: 0.5rem auto;
-        padding: 0.5rem;
-    }
+.img-column p {
+    width: 70%;
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+}
 
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
-
-
-    #img1 {
-        width: 70%;
-        display: block;
-        margin: auto;
-    }
-
-
-    #caption {
-        width: 70%;
-        font-size: 0.9rem;
-        color: #666;
-        text-align: center;
-        margin: 0.5rem auto;
-        padding: 0.5rem;
-    }
-
-
 
     #navBurger {
         display: none;
@@ -238,30 +221,48 @@ nav>ul>li>ul>li:hover a {
         content: "";
     }
 
+    /*CSS for the homepage*/
+    #img1 {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+
+    #caption {
+        width: 70%;
+        font-size: 0.9rem;
+        color: #666;
+        text-align: center;
+        margin: 0.5rem auto;
+        padding: 0.5rem;
+    }
+
+
     /*buttons used for all pages*/
-.button-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    .button-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-    margin-top: 1rem;
-    padding: 1rem 0;
-}
+        margin-top: 1rem;
+        padding: 1rem 0;
+    }
 
-.button {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    background-color: darkgreen;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-}
+    .button {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background-color: darkgreen;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+    }
 
-.button:hover {
-    background-color: lightgray;
-    color: black;
-}
+    .button:hover {
+        background-color: lightgray;
+        color: black;
+    }
 
     /*layout for pages that have two images with tips and common mistakes*/
 
@@ -304,11 +305,11 @@ nav>ul>li>ul>li:hover a {
 
     /*layout for if the page will only have one image.*/
     .img-column img {
-    display: block;
-    width: auto;
-    height: 60%;
-    object-fit: cover;
-    margin: 0 auto;
+        display: block;
+        width: auto;
+        height: 60%;
+        object-fit: cover;
+        margin: 0 auto;
     }
 
     .img-column p {
