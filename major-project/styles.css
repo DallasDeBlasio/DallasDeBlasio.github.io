@@ -305,8 +305,8 @@ nav>ul>li>ul>li:hover a {
     /*layout for if the page will only have one image.*/
     .img-column img {
     display: block;
-    width: 70%;
-    height: auto;
+    width: auto;
+    height: 60%;
     object-fit: cover;
     margin: 0 auto;
     }
